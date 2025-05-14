@@ -50,6 +50,7 @@ const BetButton: React.FC<BetButtonProps> = ({ isEnoughBalance, isBalanceFetchin
     affiliate: process.env.NEXT_PUBLIC_AFFILIATE_ADDRESS as Address,
     selections: items,
     odds,
+    deadline: 120,
     totalOdds,
     // freeBet: selectedFreeBet,
     onSuccess: () => {
